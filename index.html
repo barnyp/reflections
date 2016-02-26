@@ -28,15 +28,57 @@
         </article>
 
         <section>
-          
+          <div class="box text-center text-warning"> A BOX MODEL </div>
+            <div>
+              <div class="col-md-4 blob">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <button type="button" class="btn btn-info">
+                Accept
+                </button>
+              </div>
+
+              <div class="col-md-4 blob">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <button type="button" class="btn btn-danger">
+                Decline
+                </button>
+              </div>
+
+              <div class="col-md-4 blob">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <button type="button" class="btn btn-default">
+                Neutral
+                </button>
+              </div>
+            </div>
+
+            <form action="/registration" method="POST" class="form">
+              <p>Username:
+                  <input data-validation-length="min4" data-validation="length alphanumeric" placeholder="E.g barny">
+              </p>
+              <p>Year (yyyy-mm-dd):
+                  <input data-validation="date" data-validation-format="yyyy-mm-dd">
+              </p>
+              <p>Website:
+                  <input data-validation="url">
+              </p>
+              <p>
+                  <input type="submit" value="Submit Query">
+              </p>
+            </form>
+
+
         </section>
 
-
+        <footer>
+          <div>
+             Copyright 2016
+          </div>
+        </footer>
     </div>
 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js">
+
   </body>
 </html>
