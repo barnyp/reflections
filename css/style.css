@@ -1,0 +1,17 @@
+body  {
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header {
+  font-family: monospace, fantasy;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: auto;
+  z-index: 0;
+}
+
+article {
+  z-index: 1;
+}
