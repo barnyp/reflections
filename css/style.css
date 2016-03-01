@@ -1,10 +1,9 @@
-body  {
+body {
   padding-top: 20px;
   padding-left: 5px;
   padding-right: 5px;
   font-family: "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace;
 }
-
 header {
   font-family: monospace, fantasy;
   font-weight: bold;
@@ -12,15 +11,11 @@ header {
   margin-bottom: auto;
   z-index: 0;
 }
-
 article {
   z-index: 1;
   margin-top: 10px;
 }
-blob {
-  padding-bottom: 15px;
-  margin-bottom: 5px;
-}
-btn {
-  padding-top: 10px;
+myform {
+  margin-top: auto;
+  margin-bottom: auto;
 }
